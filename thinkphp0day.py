@@ -14,7 +14,7 @@ from lib.core.enums import PRIORITY
 __priority__ = PRIORITY.LOW
 
 def dependencies():
-    singleTimeWarnMessage("tamper script '%s' is only meant to be run against ThinkPHP 3.0~3.3" % (os.path.basename(__file__).split(".")[0]))
+    singleTimeWarnMessage("tamper script '%s' is only meant to be run against ThinkPHP 3.0~3.3!" % (os.path.basename(__file__).split(".")[0]))
 
 def tamper(payload, **kwargs):
     """
