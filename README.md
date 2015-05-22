@@ -4,3 +4,5 @@
 initialunicodeencode.py 用于将首字母unicode编码，遇到WebKnight防火墙时使用过。
 
 thinkphp0day.py 用于Thinkphp 3.0-3.3 中(in/betwenn）注入过程中绕过TP本身的一些限制与查找。
+
+unicodetobypasswaf.py 由于WideChar和MultiByte字符转换问题编写的tamper，用于在IIS服务器下，bypass一些弱的web application firewalls。
